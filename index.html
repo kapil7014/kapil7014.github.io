@@ -2,138 +2,793 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Kapil Trivedi</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+    <meta charset="utf-8">
+    <title>Kapil Trivedi</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
 
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body class="index-page">
-
-  <header id="header" class="header d-flex align-items-center light-background sticky-top">
-    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <h1 class="sitename px-2">Developer</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <!-- <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li> -->
-          <li><a href="/" class="active">Home</a></li>
-          <li><a href="/">About</a></li>
-          <li><a href="/">Resume</a></li>
-          <li><a href="/">Services</a></li>
-          <li><a href="/">Portfolio</a></li>
-          <li><a href="/">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-      <div class="header-social-links">
-        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-      </div>
-
-    </div>
-  </header>
-
-  <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
-      <img src="assets/img/hero-bg.jpg" class="img-fluid" alt="" data-aos="fade-in">
-
-      <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
-        <!-- <div class="justify-content-center row hero-content">
-          <div class="col-lg-8 hero-btn-col">
-            <a href="about.html" class="btn-get-started">About Me</a> 
-          </div>
-        </div> -->
-        <div class="circle-button">
-          <div class="arrow-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-right" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0z"/>
-            </svg>
-          </div>
-          <div class="button-text">ABOUT MORE</div>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
-      </div>
-
-    </section>
-
-  </main>
-
-  <footer id="footer" class="footer light-background">
-
-    <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kapil Trivedi</strong> <span>All Rights
-            Reserved<br></span></p>
-      </div>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>
-      </div>
-      <div class="credits">
-        Designed by <a href="/">Kapil Trivedi</a>
-      </div>
     </div>
+    <!-- Spinner End -->
 
-  </footer>
 
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">Kapil Trivedi</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+                <a href="#service" class="nav-item nav-link">Services</a>
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-white fw-bold m-0">Kapil Trivedi</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Projects</a>
+                <a href="#team" class="nav-item nav-link">Team</a>
+                <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
 
-  <!-- Preloader -->
-  <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h1 class="display-3 mb-3">Hello, I'm Kapil Trivedi</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Web Developer, Back End Developer, Apps Developer, AI Developer</div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="doc/Kapil_Trivedi_CV.docx" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
+                        <button type="button" class="btn-play" data-bs-toggle="modal" data-src="#"
+                            data-bs-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="ms-4 mb-0 d-none d-sm-block">Play Video</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="img/profile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
 
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
 
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen
+                            allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-1 mb-0">7</h1>
+                            <h5 class="mb-0">Years</h5>
+                        </div>
+                        <h3 class="lh-base mb-0">of working experience as a web & app developer</h3>
+                    </div>
+                    <p class="mb-4">Full-Stack Developer | Solution Architect | Angular, React JS, React Native,
+                        Flutter, NodeJS, .NET, Python, Ionic, NativeScript, Ms-Sql, MySql, PostgreSQL or Kotlin and
+                        Mobile Specialist.</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>End-to-End Development
+                        Expertise</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Responsive Design</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Robust Security Practices</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Scalable Solutions</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Custom API Integration</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Cutting-Edge Technologies</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Clean and Maintainable Code</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>User-Centric Design</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Cross-Domain Experience</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Post-Delivery Support</p>
+                    <p class="mb-3"><i class="far fa-check-circle text-primary me-3"></i>Agile Development</p>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-12">
+                            <img class="img-fluid rounded" src="img/about-1.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mb-3">
+                        <h5 class="border-end pe-3 me-3 mb-0">About Me</h5>
+                    </div>
+                    <p>As a FullStack Developer | Solution Architect with a decade of experience across web, mobile,
+                        and AI technologies, I specialize in designing robust, scalable, and innovative solutions
+                        that drive digital transformation. As a passionate Full Stack Developer, I specialize in
+                        crafting
+                        seamless web applications from concept to deployment. With expertise in both front-end and
+                        back-end technologies, I deliver scalable, user-friendly and efficient solutions that bridge
+                        design and
+                        functionality, bringing ideas to life.</p>
+                    <div class="d-flex align-items-center mb-3">
+                        <h5 class="border-end pe-3 me-3 mb-0">Projects Completed</h5>
+                        <h2 class="text-primary fw-bold mb-0" data-toggle="counter-up">30</h2>
+                    </div>
+                    <p class="mb-0">Over the years, I have successfully completed a diverse range of projects, each
+                        tailored to meet unique client needs. From innovative designs to robust technical solutions, my
+                        work reflects dedication, creativity, and precision. Every project tells a story of
+                        collaboration and success!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Skills & Experience</h1>
+                    <p class="mb-4">My approach is rooted in a deep understanding of both business needs and technology.
+                        Whether it’s architecting a web application on AWS, building a responsive mobile app with
+                        Flutter, or integrating backend services in .NET and Node.js, I design solutions that are
+                        scalable, secure, and performance-driven. I excel in bringing together cross-functional teams to
+                        deliver end-to-end solutions that not only meet technical requirements but also enhance user
+                        satisfaction and business outcomes.</p>
+                    <h3 class="mb-4">My Skills</h3>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Git</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">HTML</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">CSS</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">.NET</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Ionic & Capacitor</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">NativeScript</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Python</h6>
+                                    <h6 class="font-weight-bold">80%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="80"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Database</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Docker</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warn" role="progressbar" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Javascript</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Angular JS & TypeScript</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">React</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">React Native</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Node JS</h6>
+                                    <h6 class="font-weight-bold">95%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Flutter</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Kotlin</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill"
+                                href="#tab-1">Experience</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill"
+                                href="#tab-2">Education</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>Jr. Sofware Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2017 - 2018</p>
+                                    <h6 class="mb-0">Aussizz Group India Pvt. Ltd.</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Sr. Software | App Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2019 - 2020</p>
+                                    <h6 class="mb-0">Tech Avidus Pvt. Ltd.</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Sr. Software | App Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2020 - 2021</p>
+                                    <h6 class="mb-0">LukeTech LLC, Ohio, USA</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Sr. FullStack | App Developer</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2021 - Till date</p>
+                                    <h6 class="mb-0">LukeTech LLC, Ohio, USA</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-sm-6">
+                                    <h5>MCA - Master of Computer Application</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2014 - 2017</p>
+                                    <h6 class="mb-0">Rajasthan Technical University, Kota, Rajasthan, INDIA</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>BCA - Bachelor of Computer Application</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2011 - 2013</p>
+                                    <h6 class="mb-0">Mohan Lal Sukhadiya University, Udaipur, Rajasthan, INDIA</h6>
+                                </div>
+                                <div class="col-sm-6">
+                                    <h5>Web Design</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2013 - 2014</p>
+                                    <h6 class="mb-0">.NET Certificate Course</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-3 mt-4 mb-4">
+                        <div class="col-sm-12">
+                            <img class="img-fluid rounded" src="img/about-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+
+    <!-- Service Start -->
+    <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Services</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Front-End Development</h4>
+                            <span>Crafting visually stunning, responsive, and user-friendly interfaces that deliver
+                                seamless experiences across all devices. Using the latest technologies like HTML, CSS,
+                                JavaScript, and modern frameworks (Angular, React, or Vue.js), I bring designs to life
+                                with precision and performance.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-terminal fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Back-End Development</h4>
+                            <span>Building robust, secure, and scalable server-side solutions to power your
+                                applications. With expertise in databases, APIs, and backend frameworks like Node.js,
+                                Python, or ASP.NET, I ensure seamless data management and efficient system performance
+                                to meet your business needs.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-microchip fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">AI Models Development</h4>
+                            <span>Transforming data into actionable insights through custom AI solutions. I specialize
+                                in designing and implementing machine learning models, natural language processing, and
+                                computer vision systems that drive innovation and elevate user experiences.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-mobile fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Application Development</h4>
+                            <span>Crafting intuitive and scalable applications tailored to your business needs. From
+                                mobile apps to web platforms, I specialize in building high-performance, user-friendly
+                                solutions that are secure, reliable, and future-ready.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Projects</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">All Projects</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/tcp_project.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/tcp_project.png"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://www.tcpsales.net/apps/dashboard"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/gcada_project.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/gcada_project.jpg"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://gcada-dev.azurewebsites.net/pages/home"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/propio_project.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/propio_project.png"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://interpreters.propio-ls.com/Login?ReturnUrl=%2FPortal"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/propio_one_project.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="propio_one_project.png"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://play.google.com/store/apps/details?id=com.propio.ipone&hl=en_IN&gl=US"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/A1_group_project.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/A1_group_project.png"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://a1.group/"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/konsign_project.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/konsign_project.png"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://konsign.com/login"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/gcg_app.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/gcg_app.png"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://play.google.com/store/apps/details?id=com.app.greencirclegrowers"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/a2c_project.png" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/a2c_project.png"
+                                data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="https://play.google.com/store/apps/details?id=com.galileoinsights.accesstwocare&hl=en_IN"><i
+                                    class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Projects End -->
+
+
+    <!-- Team Start -->
+
+    <!-- Team End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-light py-5 my-5" id="testimonial">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Leading Organizations</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/Arch_Capital.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/A1_Group.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/TCP.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/konze_logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/missiong3_logo.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item position-relative">
+                        <img class="img-fluid rounded" src="img/innoclique.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
+                </div>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">My address:</p>
+                    <h3 class="fw-bold">Gandhinagar, Gujarat, INDIA</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Call me:</p>
+                    <h3 class="fw-bold">+9177 374 34874</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">kapilktrivedi@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4">The contact form is currently inactive.</p>
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                                        style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Map Start -->
+    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl pt-5 px-0">
+            <div class="bg-dark">
+                <iframe
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=Gandhinagar&zoom=10&maptype=roadmap"
+                    frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Map End -->
+
+
+    <!-- Copyright Start -->
+    <div class="container-fluid bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom text-secondary" href="#">Kapil Trivedi</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    Designed By <a class="border-bottom text-secondary" href="/">Kapil Trivedi</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Copyright End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
